@@ -6,6 +6,9 @@ using System.Collections;
 public class TestScript : MonoBehaviour {
 	private DialogueScript dialogueScript;
 	private DisplayManager displayManager;
+	public string[] textInput;
+	public bool[] answers;
+	public int numDial = 1;
 
 	private UnityAction myCtnAction;
 
@@ -25,16 +28,11 @@ public class TestScript : MonoBehaviour {
 	{
 		dialogueScript = DialogueScript.Instance ();
 		displayManager = DisplayManager.Instance ();
-		myCtnAction = new UnityAction (TestCtnAction);
 	}
 
 	public void TextCtn()
 	{
-		dialogueScript.continueClick ("Hello, I'm an alien. Would you like to buy some drugs?", myCtnAction);
-	}
-
-	void TestCtnAction()
-	{
-		displayManager.DisplayMessage ("Okay...");
+		Time.timeScale = 0.00f;
+		dialogueScript.instantDia (textInput, answers, numDial);
 	}
 }

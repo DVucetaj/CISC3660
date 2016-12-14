@@ -21,18 +21,24 @@ public class Movement : MonoBehaviour {
         animate = GetComponent<Animator>();
 
     }
+
+	void Update() {
+		if (Time.timeScale == 0)
+			GetComponent<Rigidbody2D> ().Sleep ();
+		else
+			GetComponent<Rigidbody2D> ().WakeUp();
+	}
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		
-        moveX = Input.GetAxis("Horizontal");
-        moveY = Input.GetAxis("Vertical");
+		moveX = Input.GetAxis ("Horizontal");
+		moveY = Input.GetAxis ("Vertical");
 
 		//Sets animator values for 'speed' and 'speedY' [to detect motion]
 		animate.SetFloat ("speed", Mathf.Abs (moveX));
 		animate.SetFloat ("speedY", Mathf.Abs (moveY));
 
-        GetComponent<Rigidbody2D>().velocity = new Vector2(moveX * moveSpeed, moveY * moveSpeed);
+		GetComponent<Rigidbody2D> ().velocity = new Vector2 (moveX * moveSpeed, moveY * moveSpeed);
 
 		//Animation for left/right
 		if (moveX > 0)

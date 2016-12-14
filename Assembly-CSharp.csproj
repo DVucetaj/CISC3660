@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3F2D8DF5-6462-A5D7-5F67-9F43C0372EE9}</ProjectGuid>
+    <ProjectGuid>{7C424859-D41B-B1D3-264A-D7C60665F38C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,10 +46,21 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AlienColl.cs" />
+     <Compile Include="Assets\Scripts\AmmoAI.cs" />
+     <Compile Include="Assets\Scripts\AmmoController.cs" />
+     <Compile Include="Assets\Scripts\BeginBonus.cs" />
+     <Compile Include="Assets\Scripts\BombAI.cs" />
+     <Compile Include="Assets\Scripts\BossAI.cs" />
+     <Compile Include="Assets\Scripts\ClerkScript.cs" />
      <Compile Include="Assets\Scripts\DialogueScript.cs" />
      <Compile Include="Assets\Scripts\DisplayManager.cs" />
+     <Compile Include="Assets\Scripts\FinalEncounter.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
+     <Compile Include="Assets\Scripts\NPCColl.cs" />
+     <Compile Include="Assets\Scripts\NPCCollSimple.cs" />
+     <Compile Include="Assets\Scripts\OkayScript.cs" />
+     <Compile Include="Assets\Scripts\RealScript.cs" />
      <Compile Include="Assets\Scripts\SoundManager.cs" />
      <Compile Include="Assets\Scripts\TestScript.cs" />
      <Compile Include="Assets\Scripts\TextInput.cs" />
@@ -57,6 +68,9 @@
      <Compile Include="Assets\Scripts\buttonToScene.cs" />
      <Compile Include="Assets\Scripts\exitScript.cs" />
      <Compile Include="Assets\Scripts\loadManagerScript.cs" />
+     <Compile Include="Assets\Scripts\newPauseScript.cs" />
+     <Compile Include="Assets\Scripts\pauseScript.cs" />
+     <Compile Include="Assets\Scripts\resumeScript.cs" />
      <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
@@ -68,7 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{E7489EED-81DE-80EA-4A3E-4F5344EE1163}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{03E506E4-6A04-F8C2-9304-EFADEFC30CE0}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

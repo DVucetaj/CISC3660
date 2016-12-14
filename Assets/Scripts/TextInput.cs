@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class TextInput : MonoBehaviour {
-	//public string playerName;
+	public string playerName;
 
 	void Start(){
 		//playerName = GameObject.Find("playerName").GetComponent<Text>();
@@ -11,6 +11,6 @@ public class TextInput : MonoBehaviour {
 
 	void Update()
 	{
-		//playerName = GameObject.Find ("thyTrueName").GetComponent<Text> ().text;
+		playerName = GameObject.Find ("thyTrueName").GetComponent<Text> ().text;
 	}
 }

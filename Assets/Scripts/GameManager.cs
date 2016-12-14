@@ -9,8 +9,13 @@ public class GameManager : MonoBehaviour {
 
 	public static GameManager instance = null;
 
+	public Text theName;
+
 	private static int playerScore;
 
+	void Awake() {
+		theName.text = PlayerPrefs.GetString ("playername");
+	}
 
 	// Use this for initialization
 	void Start () {
