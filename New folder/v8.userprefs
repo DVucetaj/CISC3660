@@ -1,0 +1,26 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\FinalEncounter.cs">
+    <Files>
+      <File FileName="Assets\Scripts\TestScript.cs" Line="36" Column="59" />
+      <File FileName="Assets\Scripts\DialogueScript.cs" Line="38" Column="1" />
+      <File FileName="Assets\Scripts\ClerkScript.cs" Line="9" Column="3" />
+      <File FileName="Assets\Scripts\BeginBonus.cs" Line="32" Column="42" />
+      <File FileName="Assets\Scripts\OkayScript.cs" Line="63" Column="47" />
+      <File FileName="Assets\Scripts\RealScript.cs" Line="7" Column="32" />
+      <File FileName="Assets\Scripts\NPCCollSimple.cs" Line="37" Column="96" />
+      <File FileName="Assets\Scripts\buttonToScene.cs" Line="22" Column="1" />
+      <File FileName="Assets\Scripts\BombAI.cs" Line="6" Column="1" />
+      <File FileName="Assets\Scripts\AmmoAI.cs" Line="11" Column="68" />
+      <File FileName="Assets\Scripts\BossAI.cs" Line="64" Column="44" />
+      <File FileName="Assets\Scripts\AmmoController.cs" Line="57" Column="44" />
+      <File FileName="Assets\Scripts\FinalEncounter.cs" Line="9" Column="73" />
+      <File FileName="Assets\Scripts\NPCColl.cs" Line="16" Column="26" />
+      <File FileName="Assets\Scripts\pauseScript.cs" Line="18" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
